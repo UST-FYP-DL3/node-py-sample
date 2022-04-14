@@ -1,0 +1,10 @@
+ticker,date,analyst,action_company,rating_current,rating_prior,action_company_sent,rating_current_sent,rating_prior_sent
+MMM US EQUITY,2012-02-09,Deutsche Bank,Downgrades,Hold,Buy,-1.0,0.0,1.0
+MMM US EQUITY,2012-04-25,UBS,Maintains,Buy,,0.0,1.0,
+MMM US EQUITY,2012-04-25,Goldman Sachs,Maintains,Sell,,0.0,-1.0,
+MMM US EQUITY,2012-04-25,Jefferies,Maintains,Buy,,0.0,1.0,
+MMM US EQUITY,2012-06-07,Jefferies,Maintains,Buy,,0.0,1.0,
+MMM US EQUITY,2012-07-16,Morgan Stanley,Upgrades,Overweight,Equal-Weight,1.0,1.0,0.0
+MMM US EQUITY,2012-07-12,Citigroup,Maintains,Neutral,,0.0,0.0,
+MMM US EQUITY,2012-09-24,Jefferies,Maintains,Buy,,0.0,1.0,
+MMM US EQUITY,2012-09-13,B of A Securities,Assumes,Buy,,0.0,1.0,

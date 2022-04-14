@@ -1,0 +1,3 @@
+ticker,date,analyst,action_company,rating_current,rating_prior,action_company_sent,rating_current_sent,rating_prior_sent
+HAHA US EQUITY,2012-02-09,Deutsche Bank,Downgrades,Hold,Buy,-1.0,0.0,1.0
+MMM US EQUITY,2012-04-25,UBS,Maintains,Buy,,0.0,1.0,

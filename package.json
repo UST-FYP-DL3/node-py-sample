@@ -1,0 +1,19 @@
+{
+  "name": "react-node-py",
+  "version": "1.0.0",
+  "description": "📌 python must use print(), go thru stdio, to node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.0.4",
+    "csv-stringify": "^6.0.5",
+    "express": "^4.17.3",
+    "python-shell": "^3.0.1",
+    "save": "^2.4.0"
+  }
+}
