@@ -85,6 +85,36 @@ function call_load_write_csv(req, res) {
   })();
 }
 
+// 3. search function
+
+app.get('/search', call_search);
+function call_search(req, res) {
+    var options = {
+        mode: 'text',
+        args:
+        [
+          req.query.input // method 1: http://localhost:3001/search?input=abc
+        ]
+      }
+
+      PythonShell.run('./search.py', options, function (err, data) {
+        if (err) res.send(err);
+        // res.send(data.toString())
+        if (data[0] == '[]') {
+          res.send('Your search - ' + req.query.input + ' - did not match any stock tickers/names.')
+        }
+        else {
+          let return_array = data[0].slice(1, -1).split(",") // method 4 (specfic value)
+          let output_str = ''
+          for (let i = 0; i < return_array.length; i++) {
+            output_str += ((i + 1) + ' ')
+            output_str += (return_array[i].toString() + ' ')
+        }
+        res.send(output_str)
+        }
+      });
+}
+
 // other stuff
 
 // app.get("/api", (req, res) => {

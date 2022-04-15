@@ -1,4 +1,4 @@
-# SAMPLE CODE: 1️⃣ node.js - python (.py) connection & 2️⃣ read/write csv file in node.js
+# SAMPLE CODE: 1️⃣ node.js - python (.py) connection & 2️⃣ read/write csv file in node.js & 3️⃣ search engine
 
 sample code for node.js - python file connection & load/write csv file in node.js
 
@@ -37,3 +37,19 @@ sample code for node.js - python file connection & load/write csv file in node.j
 ### Ref:
 > - https://stackabuse.com/reading-and-writing-csv-files-in-nodejs-with-node-csv/
 >   -  need install: `npm install csv-parse` and `npm install csv-stringify`
+
+---
+
+## 3️⃣ search engine
+
+📌 search stock by company name or ticker, return at most 5 results in an array
+
+📌 require pre-processed word list: `words.json` 
+
+### Use cases:
+1. search abc (call `search.py`)
+    - http://localhost:3001/search?input=abc
+
+### Ref:
+> - https://github.com/seperman/fast-autocomplete
+>   -  need install: `pip install fast-autocomplete[levenshtein]`
