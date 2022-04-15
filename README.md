@@ -1,6 +1,6 @@
 # SAMPLE CODE: 1️⃣ node.js - python (.py) connection & 2️⃣ read/write csv file in node.js & 3️⃣ search engine
 
-sample code for node.js - python file connection & load/write csv file in node.js
+sample code of node.js - python file connection & load/write csv file in node.js & search engine
 
 📂 **Main file: `/server/index.js`**
 
